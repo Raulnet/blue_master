@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+
+
+<!--
+ nth-child(event)mise en forme pour les paire
+            (odd)mise en forme toute les impaire
+            li:nth-child(n3) touteles 3 ligne
+            li:nth-child(3)
+ s'applique uniquement a la ligne 3
+  li:not(:nth-child(3) s'applique partout sauf su la ligne 3
+  background: linear-gradient(top, red, blue); dégrader qui part du haut en rouge vers le bleu
+  radial- gradient(qui part du centre ver le bord
+
+  -->
+<head>
+    <meta http-equiv="content-type" content="text/html" charset="UTF-8"/>
+    <meta name="description" content="Responsive website Blue Master" type="text/css"/>
+    <link href="css/reset.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <title>Blue Master</title>
+</head>
+<body>
+
+<div id="wrap">
+
+<header>
+    <div class="suscrib">
+        <p>Subscribe to: <a href="#">Email</a><a href="#">Comments</a><a href="#">Posts</a></p>
+
+        <form method="post" action="recherche.php">
+            <p>
+                <input type="text"  name="text">
+                <input type="submit" name="submit">
+            </p>
+        </form>
+        <a href="#"><img src="images/icon_rss.jpg"></a>
+        <a href="#"><img src="images/icon_fb.jpg"></a>
+        <a href="#"><img src="images/icon_twitter.jpg"></a>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">contact</a></li>
+        </ul>
+    </nav>
+</header>
+<div id="cadre" class="clearfix">
+    <div id="background" class="clearfix">
+        <section>
+            <h1>Blog</h1>
+            <article>
+                <h1>Creation of Beaches</h1>
+
+                <h2>Posted in: <a href="#">Photography</a> on Tuesday, april 12th, 2010 </h2>
+                <img src="images/main_img1.jpg">
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab cupiditate perspiciatis repellendus.
+                    Alias amet assumenda consequuntur dolorem eius, enim eveniet fugit iusto, maxime quo, quos
+                    sapiente sequi ut veniam voluptas?</p>
+
+                <h3> Tags: <a href="#">Beach,</a> <a href="#">Vacation,</a> <a href="#">Ocean,</a> <a
+                        href="#">sea</a><span><a href="#">23 Comments</a><a href="#">read More</a></span></h3>
+
+            </article>
+            <article>
+                <h1>Creation of Beaches</h1>
+
+                <h2>Posted in: <a href="#">Photography</a> on Tuesday, april 12th, 2010 </h2>
+                <img src="images/main_img2.jpg">
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab cupiditate perspiciatis repellendus.
+                    Alias amet assumenda consequuntur dolorem eius, enim eveniet fugit iusto, maxime quo, quos
+                    sapiente sequi ut veniam voluptas?</p>
+
+                <h3> Tags: <a href="#">Beach,</a> <a href="#">Vacation,</a> <a href="#">Ocean,</a> <a
+                        href="#">sea</a><span><a href="#">23 Comments</a><a href="#">read More</a></span></h3>
+
+            </article>
+            <article>
+                <h1>Creation of Beaches</h1>
+
+                <h2>Posted in: <a href="#">Photography</a> on Tuesday, april 12th, 2010 </h2>
+                <img src="images/main_img3.jpg">
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab cupiditate perspiciatis repellendus.
+                    Alias amet assumenda consequuntur dolorem eius, enim eveniet fugit iusto, maxime quo, quos
+                    sapiente sequi ut veniam voluptas?</p>
+
+                <h3> Tags: <a href="#">Beach,</a> <a href="#">Vacation,</a> <a href="#">Ocean,</a> <a
+                        href="#">sea</a> <span><a href="#">23 Comments</a><a href="#">read More</a></span></h3>
+
+            </article>
+
+            <div class="navArticle">
+                <a href="#"><< Presious Page</a>
+                <a href="#">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">Next Page >></a>
+            </div>
+        </section>
+        <aside>
+
+            <h1>Our Blog News</h1>
+
+            <div class="imgOurBlog">
+                <img src="images/img_blognews.jpg">
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti dolor facere fugiat quidem
+                    vero? Dignissimos doloremque facere, fuga fugiat hic id labore, laboriosam magnam non, provident
+                    quam tempore velit vitae!</p>
+            </div>
+
+            <h1>Site Navigation</h1>
+
+            <div>
+                <ul>
+                    <li><a href="#">Welcome Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Our Portofolio</a></li>
+                    <li><a href="#">blog News</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <h1>Categories</h1>
+
+            <div>
+                <p><a href="#">Photography</a> <span>12</span></p>
+
+                <p><a href="#">Our Portfolio</a> <span>98</span></p>
+
+                <p><a href="#">Graphic Design</a> <span>234</span></p>
+
+                <p><a href="#">Web Designs</a> <span>4</span></p>
+
+                <p><a href="#">Web Development</a> <span>3</span></p>
+
+                <p><a href="#">Iconography</a> <span>16</span></p>
+            </div>
+
+            <h1>Blog Archives</h1>
+
+            <div>
+                <p><a href="#">April 2010</a> <span>98</span></p>
+
+                <p><a href="#">February</a> <span>2</span></p>
+            </div>
+
+            <h1>Network Connect</h1>
+
+            <div class="imgNetworkConnect">
+                <img src="images/btn_twitter.jpg">
+                <img src="images/btn_facebook.jpg">
+                <img src="images/btn_flickr.jpg">
+                <img src="images/btn_linkedin.jpg">
+                <img src="images/btn_trumblr.jpg">
+                <img src="images/btn_youtube.jpg">
+            </div>
+        </aside>
+
+    </div>
+</div>
+
+
+<footer class="clearfix">
+
+    <div>
+        <h2>About Us</h2>
+        <ul>
+            <li><a href="#">Our Company</a></li>
+            <li><a href="#">Our blog</a></li>
+            <li><a href="#">submit a Site</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Help Terms</a></li>
+            <li><a href="#">Read Our Faq</a></li>
+        </ul>
+    </div>
+    <div>
+        <h2>About Us</h2>
+        <ul>
+            <li>Photography <a href="#">(12)</a></li>
+            <li>Our Portofolio <a href="#">(98)</a></li>
+            <li>Graphic Design <a href="#">(234)</a></li>
+            <li>Web Designs <a href="#">(4)</a></li>
+            <li>Web Development <a href="#">(3)</a></li>
+            <li>Iconography <a href="#">(16)</a></li>
+        </ul>
+    </div>
+    <div>
+        <h2>From the Gallery</h2>
+        <ul class="footerImg">
+            <li><a href="#"><img src="images/gallery_thumb1.jpg"></a></li>
+            <li><a href="#"><img src="images/gallery_thumb2.jpg"></a></li>
+            <li><a href="#"><img src="images/gallery_thumb3.jpg"></a></li>
+            <li><a href="#"><img src="images/gallery_thumb4.jpg"></a></li>
+        </ul>
+        <ul class="footerImg">
+            <li><a href="#"><img src="images/gallery_thumb5.jpg"></a></li>
+            <li><a href="#"><img src="images/gallery_thumb6.jpg"></a></li>
+            <li><a href="#"><img src="images/gallery_thumb7.jpg"></a></li>
+            <li><a href="#"><img src="images/gallery_thumb8.jpg"></a></li>
+        </ul>
+    </div>
+    <div>
+        <h2>Twitter updates</h2>
+
+        <p><a href="#">@Dellustrations</a> there is a new designer in town people! it's amazing How you can do
+            eveything inside twitter! <a href="#">http://bit.urds</a></p>
+
+        <p>2minutes ago via <a href="#">TweeterDeck</a></p>
+    </div>
+
+
+</footer>
+<div class="copyright">
+    <p>&copy; 2010 Copyright iPadMasters Theme. All rights Reserved.</p>
+    <ul>
+        <li><a href="#">Back to Top</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Terms and Conditions</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Log in</a></li>
+
+    </ul>
+</div>
+
+</div>
+</body>
+</html>
